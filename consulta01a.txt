@@ -1,0 +1,2 @@
+
+SELECT DISTINCT u.Nombre ,ja.fecha,je.nombres, FROM Meta c, PostMeta e,JOIN e.post fy WHERE u.idMeta=,PostPaso u JOIN u.usuario ji WHERE ji.Usuario=u.idUsuario

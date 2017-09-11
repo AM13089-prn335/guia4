@@ -1,0 +1,4 @@
+SELECT w.nombre, COUNT(w) as tipo 
+FROM Post p JOIN p.idTipoPost w
+GROUP BY c
+ORDER BY tipo DESC
